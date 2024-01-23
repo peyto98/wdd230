@@ -28,6 +28,12 @@ h2 {
     color: #009900;
 }
 
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+
 .card {
     background-color: #fff;
     border: 1px solid #ddd;

@@ -17,6 +17,10 @@
         font-size: 1.5em;
     }
 
+    .card-container {
+        grid-template-columns: 2fr 1fr; 
+    }
+
     .card {
         padding: 20px;
     }
