@@ -5,6 +5,10 @@
         align-items: flex-start; 
     }
 
+    nav ul {
+        display: flex;
+    };
+
     body {
         font-size: 16px;
     }
