@@ -25,7 +25,8 @@ h1 {
 }
 
 h2 {
-    color: #009900;
+    background-color: #009900;
+    text-align: center;
 }
 
 .card-container {
@@ -35,6 +36,9 @@ h2 {
 }
 
 .card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 10px;
