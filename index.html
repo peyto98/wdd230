@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peyton White - WDD 230 - Web Frontend Development</title>
-    <meta name="discription" content="WDD 230 - Web Frontend Development Peyton White course assignment portal homepage">
+    <meta name="discription" content="WDD 230 - Web Frontend Development - Peyton White - Course assignment portal">
     <meta name="image" content="https://blog.fischerhomes.com/hs-fs/hubfs/Dallas%20Theater.jpg?width=2560&height=1708&name=Dallas%20Theater.jpg">
     <meta name="og:site" content="https://peyto98.github.io/wdd230/">
     <meta name="author" content="Peyton White">
+    <title>Peyton White - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdates.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="content">
     <header>
-        <img src="images/profile.JPG" alt="Peyton White profile" height="100" width="75">
-        <span>Peyton C. White</span>
+        <img src="images/profile.jpg" alt="Peyton White profile"> 
+        <h1>Peyton C. White</h1>
     </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="a">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="a">Form</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+            <li><a href="a">Scripture</a></li>
         </ul>
     </nav>
     <main>
-        <h1>WDD 230: Web Frontend Development</h1>
-
-        <div class="card">
-            <section>
-            <h2>Learning Activities</h2>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <hr>
+        <section class="card">
+            
+            <h3>Learning Activities</h3>
             <ul>
                 <li>Week 1:<a href="week01/chamber-site-plan.html">Site Plan</a></li>
                 <li>Week 2:<a href="week02/bom.html">BOM</a> <a href="week02/design.html">Design</a>
@@ -49,21 +51,21 @@
                 <li>Week 10:<a href="Week10"></a></li>
                 <li>Week 11:<a href="Week11"></a></li>
             </ul>
-            </section>
+        </section>
 
-            <section>
-            <h2>Information</h2>
+        <section class="card">
+            <h3>Information</h3>
             <p>Dallas, Georgia</p>
             <p>Cold</p>
             <p>Number of Page Visits</p>
-            </section>
-        </div>
+        </section>
+    </h>
 
     </main>
     <footer>
         <p id="copyright">&copy; <span id="currentYear"></span> Peyton White, Georgia</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getdates.js"></script>
+    </div>
 </body>
 </html>
