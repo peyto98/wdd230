@@ -6,6 +6,10 @@
         justify-content: space-around
     }
 
+    #menu-button{
+        display: none;
+    }
+
     #cards {
         display: grid;
         grid-template-columns: 2fr 1fr;
