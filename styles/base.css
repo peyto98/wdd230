@@ -70,6 +70,10 @@ footer{
     text-align: center;
 }
 
+.card{
+    margin: 20px;
+}
+
 p{
     text-align: center;
 }
