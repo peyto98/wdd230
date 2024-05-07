@@ -55,6 +55,8 @@ header h1{
 }
 
 nav ul{
+    list-style: none;
+    text-align: center;
     background-color: var(--accent-color);
     padding-inline-start: 0px;
     display: none;
@@ -67,14 +69,14 @@ nav ul.open{
 }
 
 nav ul li{
-    text-align: center;
-    margin: 20px;
+    padding: 1rem;
+    width: 100%;
 }
 
 nav ul li a{
+    display: block;
     color: white;
     text-decoration: none;
-    padding: 10px;
 }
 
 main h2{
