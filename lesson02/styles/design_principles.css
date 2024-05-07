@@ -1,0 +1,19 @@
+main section {
+border: 1px grey solid;
+    margin: .5rem;
+    box-shadow: 3px 3px var(--shadow);
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--body-background);
+}
+:root {
+    --shadow: rgb(0, 0, 53);
+    --header-background: navy;
+    --body-background: lightblue;
+}
