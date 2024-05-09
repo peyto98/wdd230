@@ -7,7 +7,7 @@
     }
 
     nav ul.open{
-        
+
     }
 
     #menu-button{
@@ -17,6 +17,10 @@
     #cards {
         display: grid;
         grid-template-columns: 2fr 1fr;
+    }
+
+    .map{
+        grid-column: 1/3;        
     }
 
 }
