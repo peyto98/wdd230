@@ -1,3 +1,12 @@
-const currentYear = new Date().getFullYear();
+function populateCurrentYear() {
+    var currentYear = new Date().getFullYear();
+    document.getElementById("currentYear").textContent = currentYear;
+}
 
-document.getElementById('lastModified').innerText = `Last Modified: ${document.lastModified}`;
+function populateLastModified() {
+    var lastModified = document.lastModified;
+    document.getElementById("lastModified").textContent = `Last modified: ${lastModified}`;
+}
+
+populateCurrentYear();
+populateLastModified();
