@@ -86,11 +86,13 @@ main h2{
 footer{
     text-align: center;
     background-color: var(--header-color);
+    padding: 10px;
 }
 
 .card h3{
     background-color: var(--header-color);
     text-align: center;
+    padding: 10px;
 }
 
 .card{
