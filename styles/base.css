@@ -106,3 +106,15 @@ p{
 .map iframe{
     width: 100%;
 }
+
+#learning-activities li a:link{
+    color: white;
+}
+
+#learning-activities li a:visited{
+    color: white;
+}
+
+#learning-activities li a:hover{
+    color: white;
+}
