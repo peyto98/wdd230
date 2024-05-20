@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+#content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+ul{
+    list-style: none;
+}
+
+header h1{
+    text-align: left;
+    margin-top: 40px;
+}
+
+#menu-button{
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+#menu-button::before{
+    content: "≡";
+}
+
+#menu-button.open::before{
+    content: "X";
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+    display: none;
+}
+
+nav ul.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav ul li{
+    padding: 1rem;
+    width: 100%;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--header-color);
+    padding: 10px;
+}
+
+p{
+    text-align: center;
+}
