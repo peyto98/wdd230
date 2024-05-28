@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --background-color: #C2B280;
+    --header-color: #4CAF50;
+    --accent-color: #D1B61D;
+}
+
+header{
+    text-align: center;
+    background-color: var(--header-color);
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: var(--accent-color);
+    padding-inline-start: 0px;
+}
+
+nav ul li{
+    padding: 1rem;
+    width: 100%;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    background-color: var(--header-color);
+}
+
+p{
+    text-align: center;
+}

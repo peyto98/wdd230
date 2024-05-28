@@ -15,14 +15,15 @@ main{
 }
 
 .hero img {
-    align-content: center;
+    align-self: center;
 }
+
 ul{
     list-style: none;
 }
 
 header h1{
-    text-align: left;
+    text-align: center;
     margin-top: 40px;
 }
 
@@ -60,6 +61,10 @@ nav ul li{
 nav ul li a{
     display: block;
     text-decoration: none;
+}
+
+h3{
+    text-align: center;
 }
 
 footer{
