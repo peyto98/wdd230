@@ -20,15 +20,6 @@ body{
     margin: 0 auto;
 }
 
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.hero img {
-    align-self: center;
-}
-
 ul{
     list-style: none;
 }
@@ -68,6 +59,16 @@ nav ul li a{
     display: block;
     text-decoration: none;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hero img {
+    align-self: center;
+}
+
 
 h3{
     text-align: center;
