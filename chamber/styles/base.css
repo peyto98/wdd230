@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+:root{
+    --background-color: #C2B280;
+    --header-color: #4CAF50;
+    --accent-color: #D1B61D;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
 body{
     font-family: "Open Sans", sans-serif;
 }
@@ -20,11 +31,6 @@ main{
 
 ul{
     list-style: none;
-}
-
-header h1{
-    text-align: center;
-    margin-top: 40px;
 }
 
 #menu-button{

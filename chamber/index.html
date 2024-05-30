@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/header-footer.js" defer=""></script>
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 
 </head>
 <body>
@@ -43,8 +44,10 @@
         </section>
         <section class="weather">
             <h3>Weather</h3>
-            <p>Curent Conditions: Cloudy</p>
-            <p>Current Temp: 70&deg;F</p>
+            <p>Curent Conditions: <span id="current-conditions">Partly Cloudy</span></p>
+            <p>Current Temp: <span id="temperature">80</span></p>
+            <p>Current Wind: <span id="windspeed">25</span></p>
+            <p>windchill: <span id="windchill"></span></p>
         </section>
         <section class="spotlight1">
             <h3>Spotlight 1</h3>
