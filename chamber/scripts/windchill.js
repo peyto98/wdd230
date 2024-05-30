@@ -7,6 +7,10 @@ function showWindChill(temp, wind){
         chillSpan.innerText='N/A'
         return
     }
+
+    chillfactor = wind ** 0.16
+    chill = 35.74 +(0.6215 * temp) - (35.75 * chillfactor) + (0.4275 * temp * chillfactor)
+    chillSpan.innerHTML = `${chill}&deg;F`
 }
 
 showWindChill(parseInt(tempSpan.innerText), parseInt(windSpan.innerText))
