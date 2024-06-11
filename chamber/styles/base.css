@@ -29,20 +29,6 @@ header div img{
     height: 150px;
 }
 
-#menubutton{
-    background-color: transparent;
-    padding: .25rem .5rem;    
-}
-
-#menubutton::before{
-    content: "≡";
-}
-
-#menubutton.open::before{
-    content: "X";
-}
-
-
 #dark-mode{
     background-color: white;
     height: 2rem;
@@ -57,6 +43,19 @@ header div img{
 
 #dark-mode.dark::before{
     content: "☀";
+}
+
+#menubutton{
+    background-color: transparent;
+    padding: .25rem .5rem;    
+}
+
+#menubutton::before{
+    content: "≡";
+}
+
+#menubutton.open::before{
+    content: "X";
 }
 
 #navbar{
