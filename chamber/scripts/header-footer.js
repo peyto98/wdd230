@@ -26,7 +26,7 @@ darkbutton.addEventListener("click", () =>{
         document.documentElement.style.setProperty('--text-color', 'black');        
         document.documentElement.style.setProperty('--inv-text-color', 'white');        
         document.documentElement.style.setProperty('--background-color', '#C2B280');    
-        document.documentElement.style.setProperty('--card-color', '#A3B18A');        
+        document.documentElement.style.setProperty('--card-color', '#3A5A40');        
         document.documentElement.style.setProperty('--header-color', '#588157');    
         document.documentElement.style.setProperty('--nav-color', '#3A5A40');                
     }
