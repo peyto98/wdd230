@@ -79,6 +79,26 @@ nav ul li a{
     text-decoration: none;
 }
 
+.temple{
+    text-align: center;
+    position: relative;
+}
+
+.temple img{
+    border: 2px black solid;
+}
+
+.temple p{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    border: 1px black solid;
+    border-radius: 4px;
+}
+
 main h2{
     text-align: center;
 }
