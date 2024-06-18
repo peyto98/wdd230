@@ -177,6 +177,9 @@ header div img{
     font-weight: bold;
 }
 
+h3{
+    text-align: center;
+}
 .spotlight{
     border: 2px solid var(--accent-color);
     background-color: var(--accent-color);
@@ -188,7 +191,9 @@ header div img{
 
 .spotlight img{
     border: 2px solid var(--accent-color);
-    align-content: center;
+    width: 60%;
+    margin: auto;
+    display: block;
 }
 
 footer{
