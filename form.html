@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="WDD 230 - Web Frontend Development - Peyton White - Course assignment portal">
+    <meta name="og:site" content="WDD230 Home Page">
+    <meta name="og:type" content="website">
+    <meta name="author" content="Peyton White">
+    <meta name="og:url" content="https://peyto98.github.io/wdd230/index.html">
+    <title>Peyton White - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+    <header>
+        <img src="images/headshot.JPG" alt="Peyton White profile">
+        <h1>Peyton C. White</h1>
+    </header>
+    <button id="menu-button"></button>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+            <li><a href="a">Scripture</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <label>Username<sup class="redstar">*</sup>
+                <input type="text" id="username" name="username" required></label>
+            <label>Password<sup class="redstar">*</sup> (at least 8 characters, alpha-numeric only)
+                <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}">
+            </label>
+            <label>Repeat Password<sup class="redstar">*</sup> <span id="message"></span>
+                <input type="password" id="repeat" name="repeat" name="repeat" required>
+            </label>
+            <label>Email 
+                <input type="text" id="email" name="email" pattern="[0-9a-zA-Z_.\-]+@byui\.edu" title="A valid BYU-I e-mail address">
+            </label> 
+            <label>Page Rating - <span id="rangevalue">1</span>                    
+                <input type="range" id="rating" name="rating" min="1" max="10" step="1" list="rangevalues" value="1">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>                </label>
+            <button type="submit">Give Us Your Feedback!</button>
+        </form>
+    </main>
+    <footer>
+        <p id="copyright">&copy; <span id="currentYear"></span> Peyton White, Georgia</p>
+        <p id="lastModified"></p>
+    </footer>
+    </div>
+</body>
+</html>
