@@ -125,6 +125,7 @@ p{
 
 .map iframe{
     width: 100%;
+    border: 0;
 }
 
 #learning-activities li a:link{
